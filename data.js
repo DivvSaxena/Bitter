@@ -58,4 +58,27 @@ export const tweetsData = [
         isTrashed:false,
         uuid: '8hy671sff-c0f5-4545-9c4b-1237gyys45',
     },     
+    {
+        handle: `@BullX`,
+        profilePic: `images/bull.png`,
+        likes: 10,
+        retweets: 3,
+        tweetText: `Just spent 2 hours customizing my character's hairstyle in the game. It better have a better hair day than I do in real life! 💇‍♀️😂 #Priorities`,
+        replies: [
+            {
+                handle: `@QuestMasterMike`,
+                profilePic: `images/master.png`,
+                tweetText: `The game devs spent years working on that hair physics, Gina. It'll be flawless! 💁‍♂️🎮 #GamerLife`,
+            },
+            {
+                handle: `@CosplayCarl`,
+                profilePic: `images/mortal.jpg`,
+                tweetText: ` I've seen your character's hair. It's ready for its own shampoo commercial! 🌟 #GamingGlam`,
+            },
+        ],
+        isLiked: false,
+        isRetweeted: false,
+        isTrashed:false,
+        uuid: '3816f334-4af9-11ee-be56-0242ac120002',
+    },     
 ]

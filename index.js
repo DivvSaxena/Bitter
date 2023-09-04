@@ -130,8 +130,7 @@ function getFeedHtml(){
         <div>
             <div class="tweet-head">
                 <p class="handle">${tweet.handle}</p>
-                <i class="fa-solid fa-trash" 
-                data-trash="${tweet.uuid}" ></i>
+                
             </div>
             <p class="tweet-text">${tweet.tweetText}</p>
             <div class="tweet-details">
