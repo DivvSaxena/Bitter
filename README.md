@@ -7,7 +7,7 @@ Welcome to the Twitter Clone project! After two days of continuous development,I
 
 - **Create Tweets:** You can compose and post your tweets just like on Twitter itself.
 
-- **Like and Retweet:** Show your appreciation for other users' tweets by liking them, or share them with your followers by retweeting.
+- **Like and Retweet:** Show your appreciation for other users' tweets by liking them or increase its retweets.
 
 - **View Comments:** Dive into the conversations happening around tweets by viewing and interacting with comments.
 
