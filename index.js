@@ -59,8 +59,8 @@ function handleTweetBtnClick(){
 
     if(tweetInput.value){
         tweetsData.unshift({
-            handle: `@Scrimba`,
-            profilePic: `images/scrimbalogo.png`,
+            handle: `@DivvSaxena`,
+            profilePic: `images/twitter-modified.png`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
@@ -130,7 +130,8 @@ function getFeedHtml(){
         <div>
             <div class="tweet-head">
                 <p class="handle">${tweet.handle}</p>
-                
+                <i class="fa-solid fa-ellipsis" 
+                data-trash="${tweet.uuid}" ></i>
             </div>
             <p class="tweet-text">${tweet.tweetText}</p>
             <div class="tweet-details">
